@@ -1,0 +1,275 @@
+body, html, ul, li, h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-top: 51px;
+	background-color: #EDEDED;
+	background-image: url(../img/bg.jpg);
+	padding-bottom: 50px;
+}
+
+p {
+	color: #434343;
+	font-family: 'Arial';
+}
+
+h1 {
+	text-align: center;
+	font-size: 32px;
+}
+
+label {
+    margin-top: 5px;
+    font-size: 18px;
+    display: block;
+}
+
+.form-reg {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.form-reg input, .form-reg textarea, .form-reg select {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Calibri';
+}
+
+.form-reg input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 170px;
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+}
+
+.container {
+	margin: 0 auto;
+	min-width: 970px;
+	max-width: 100%;
+}
+
+.navbar {
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid grey;
+	color: black;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.navbar li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+}
+
+.navbar li a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Calibri';
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.navbar li a:hover {
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.header {
+	height: 200px;
+	background-color: rgba(255,255,255,0.9);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.content {
+	width: 100%;
+	padding: 10px 15px;
+	background-color: white;
+	box-shadow: 0px 0px 18px 1px rgba(125,125,125,0.68);
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.content img {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Calibri';
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.bold-title {
+	text-decoration: none;
+    color: #3389ff;
+    font: 24px Mariad Pro, Tahoma;
+    font-weight: bold;	
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.reason {
+	margin-left: 30px;
+	font-family: 'Arial';
+}
+
+.footer {
+	background-color: #2E2E2E;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.why {
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 24px;
+	color: #696969;
+	text-transform: uppercase;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.car {
+	border-bottom: 1px dashed #696969;
+	border-top: 1px dashed #696969;
+}
+
+.car-photo {
+	float: left;
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+
+.car-title {
+	font-weight: bold;
+	font-family: 'Calibri';
+	font-size: 26px;
+	margin-left: 215px;
+}
+
+.car-price {
+	margin-left: 215px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.car-price strong {
+	color: red;
+}
+
+.car-description {
+	margin-left: 215px;	
+	font-family: 'Arial';
+	font-size: 18px;
+	color: #565656;
+	margin-top: 15px;
+}
+
+.btn-order {
+	font-family: 'Calibri';
+	font-size: 18px;
+	margin-left: 15px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;	
+    color: #ffffff;
+    background-color: #2a9fd6;
+    border-color: #2a9fd6;   
+    margin-top: 15px; 	
+}
+
+.car:hover {
+	background-color: #F6F6F6;
+}
+
+.error {
+    color: red;
+    margin-top: 15px;
+}
+
+.success {
+    color: green;
+    margin-top: 15px;	
+}
+
+.review {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #BCBCBC;
+}
+
+.review-name {
+	font-family: 'Calibri';
+}
+
+.review-star {
+	color: #ff9900;
+	font-size: 18px;
+	height: 15px;
+}
+
+.review-text {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#map {
+    width: 100%; height: 100%; padding: 0; margin: 0;
+}
+
+.form-qestion .btn-form {
+	width: 100% !important;
+}
+
+.btn-primary {
+	cursor: pointer;
+}

@@ -1,0 +1,199 @@
+body, html, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #EDEDED;
+}
+
+.navbar {
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #222;
+}
+
+.menu-top {
+	list-style-type: none;
+}
+
+.menu-top li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+}
+
+.menu-top li a {
+	color: white;
+	text-decoration: none;
+	color: #E2E2E2;
+}
+
+.menu-top li a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.container {
+	margin: 0 auto;
+	width: 970px;
+}
+
+legend {
+	display: block;
+	border-bottom: 1px solid black;
+	font-size: 28px;
+	font-family: 'Calibri';
+	width: 100%;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+tr:first-child td {
+	font-weight: bold;
+	text-align: center;
+}
+
+tr td {
+    border: 1px solid black;	
+}
+
+form input, form textarea, form select {
+	display: block;
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	font-family: 'Calibri';
+}
+
+label {
+	margin-top: 5px;
+	font-size: 18px;
+	display: block;
+}
+
+form textarea {
+	height: 70px;
+}
+
+button[type="submit"] {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	width: 170px;
+	height: 40px;
+	display: block;
+	margin-top: 10px;	
+}
+
+button[type="submit"]:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+}
+
+.btn-primary:hover {
+	background: #1d49aa;
+}
+  
+.btn-primary:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.btn-primary {
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #4676D7;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 16px;
+	text-decoration: none;
+  }
+
+  table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border-collapse: collapse;
+	color: #686461;
+  }
+  caption {
+	padding: 10px;
+	color: white;
+	background: #8FD4C1;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+  }
+  th {
+	border-bottom: 3px solid #B9B29F;
+	padding: 10px;
+	text-align: left;
+  }
+  td {
+	padding: 5px;
+  }
+  tr:nth-child(odd) {
+	background: white;
+  }
+  tr:nth-child(even) {
+	background: #ededed;
+  }
+
+  .danger {
+	  background-color: #cc11115e;
+  }
+
+  .success {
+	  background-color: #8fd4c1 ;
+  }
+ 
+  td.actions {
+	  width: 200px;
+  }
+
+  .btn.prymary-table {
+	appearance: none;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 2px 10px;
+    margin: 3px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .btn-primary {
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.block-input .col-md-2 {
+	display: flex;
+	margin-top: 20px;
+}
+
+.block-input .col-md-2  label{
+	width: 200px;
+}
+
+.btn.prymary-table {
+	cursor: pointer;
+}
